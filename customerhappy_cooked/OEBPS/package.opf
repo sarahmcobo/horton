@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" 
+         unique-identifier="pub-id" 
+		 prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">customerhappy</dc:title>
+    <meta refines="#title" property="title-type">main</meta>
+    <dc:creator id="creator">Ann Author</dc:creator>
+    <meta refines="#creator" property="file-as">Author, Ann</meta>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+    <dc:identifier id="pub-id">jcobobooks.com.epub-samples.demo</dc:identifier>
+	<dc:identifier id="uid">urn:uuid:57b681b5-137b-4791-b5c5-aaa111bbb222</dc:identifier>
+    <meta refines="#uid" property="identifier-type" scheme="onix:codelist5">ISBN</meta>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2012-01-18T12:47:00Z</meta>
+    <dc:publisher>A. Publisher</dc:publisher>
+    <dc:contributor id="contrib1">Collab Orator</dc:contributor>
+    <meta refines="#contrib1" property="role" scheme="marc:relators">mrk</meta>
+    <dc:rights>This work is shared with the public using the Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.</dc:rights>        
+	<meta property="ibooks:specified-fonts">true</meta>
+  </metadata>
+  
+  <manifest>
+   <item id="font_1" href="fonts/Courgette-Regular.woff"
+      media-type="application/vnd.ms-opentype"/>
+    <!--<item id="toc" properties="nav" href="content/table_of_contents.xhtml" media-type="application/xhtml+xml"/> -->
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    
+    <item id="cover" href="cover.xhtml"  media-type="application/xhtml+xml" />
+    <item id="title_page" href="content/title_page.xhtml"  media-type="application/xhtml+xml" />
+    <item id="table_of_contents" href="content/table_of_contents.xhtml"  media-type="application/xhtml+xml" properties="nav"/>
+    <item id="dedication" href="dedication.xhtml"  media-type="application/xhtml+xml" />
+    
+    <item id="style" href="css/epub-stylesheet.css" media-type="text/css"/>
+      
+    <item id="chap001" href="content/chap001.xhtml"  media-type="application/xhtml+xml" />
+    <item id="chap002" href="content/chap002.xhtml"  media-type="application/xhtml+xml" />
+    <item id="chap003" href="content/chap003.xhtml"  media-type="application/xhtml+xml" />
+
+    <item id="description"  href="description.xhtml" media-type="application/xhtml+xml" />
+    <item id="about_author"  href="about_author.xhtml" media-type="application/xhtml+xml" />
+    
+    <item id="img1" href="images/epubchef_logo.jpg" media-type="image/jpeg" />
+	<item id="cover-image" properties="cover-image" href="images/cover_image.jpg" media-type="image/jpeg"/>
+
+  </manifest>
+ 
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="title_page" linear="yes"/>
+    <itemref idref="table_of_contents" linear="no"/>
+    <itemref idref="dedication" linear="yes"/>
+    <itemref idref="chap001" linear="yes"/>
+    <itemref idref="chap002" linear="yes"/>
+    <itemref idref="chap003" linear="yes"/>
+    <itemref idref="description" linear="yes"/>
+    <itemref idref="about_author" linear="yes"/>
+  </spine>
+</package>

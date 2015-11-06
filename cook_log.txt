@@ -1,16 +1,15 @@
-****starting to cook***** at 2015-06-14 12:12:34.951320 (Ireland time)
-
-cook_dir: C:\Users\john\Documents\github\epubchef
-deleting previously generated contents of directory: C:\Users\john\Documents\github\epubchef\debug
-NO RECIPE FOUND AT: C:\Users\john\Documents\github\epubchef\demo2_raw\demo2_recipe.txt
-Creating new recipe for: demo2
-Opening Point Of Sale data for: demo2_raw\demo2_pos_data.txt
-No Point of Sale data this time.
-front_matter count: 4
-creating new empty chapter:010
-creating new empty chapter:020
-creating new empty chapter:030
-chapter count: 3
-ePubChef is finished, see /demo2_served.
-zipping up to .epub at: C:\Users\john\Documents\github\epubchef\demo2_served\demo2.epub
+****starting to cook***** at 2015-11-06 11:17:46.663947 (Ireland time)
+
+cook_dir: /home/ubuntu/books/sarahmcobo/horton
+NO RECIPE FOUND AT: /home/ubuntu/books/sarahmcobo/horton/customerhappy_raw/customerhappy_recipe.txt
+Creating new recipe for: customerhappy
+Opening Point Of Sale data for: customerhappy_raw/customerhappy_pos_data.txt
+No Point of Sale data this time.
+front_matter count: 4
+creating new empty chapter:010
+creating new empty chapter:020
+creating new empty chapter:030
+chapter count: 3
+ePubChef is finished, see /customerhappy_served.
+zipping up to .epub at: /home/ubuntu/books/sarahmcobo/horton/customerhappy_served/customerhappy.epub
 All done
