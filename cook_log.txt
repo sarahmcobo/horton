@@ -1,15 +1,13 @@
-****starting to cook***** at 2015-11-06 11:17:46.663947 (Ireland time)
+****starting to cook***** at 2015-11-06 11:22:12.558265 (Ireland time)
 
 cook_dir: /home/ubuntu/books/sarahmcobo/horton
-NO RECIPE FOUND AT: /home/ubuntu/books/sarahmcobo/horton/customerhappy_raw/customerhappy_recipe.txt
-Creating new recipe for: customerhappy
+deleting previously generated contents of directory: /home/ubuntu/books/sarahmcobo/horton/debug
+Opening recipe for: /home/ubuntu/books/sarahmcobo/horton/customerhappy_raw/customerhappy_recipe.txt
+deleting previously generated contents of directory: /home/ubuntu/books/sarahmcobo/horton/customerhappy_cooked
 Opening Point Of Sale data for: customerhappy_raw/customerhappy_pos_data.txt
-No Point of Sale data this time.
 front_matter count: 4
-creating new empty chapter:010
-creating new empty chapter:020
-creating new empty chapter:030
 chapter count: 3
 ePubChef is finished, see /customerhappy_served.
 zipping up to .epub at: /home/ubuntu/books/sarahmcobo/horton/customerhappy_served/customerhappy.epub
+deleting previously generated contents of directory: /home/ubuntu/books/sarahmcobo/horton/customerhappy_served
 All done

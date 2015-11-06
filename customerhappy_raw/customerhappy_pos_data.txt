@@ -1,0 +1,3 @@
+{code: PHU6GM0A, country: USA, date: '2015-03-16', epub_email: john.cobo@gmail.com,
+  price: $4.99, purchaser: Fred Smith, stats_url: 'http://jcobobooks.com/frt553tge3ss6/',
+  transaction_id: frt553tge3ss6}

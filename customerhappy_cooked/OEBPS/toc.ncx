@@ -7,7 +7,7 @@
     <meta content="0" name="dtb:maxPageNumber" />
   </head>
   <docTitle>
-    <text>customerhappy</text>
+    <text>How ot make a Customer Happy</text>
   </docTitle>
   <docAuthor>
     <text>Ann Author</text>
@@ -33,7 +33,7 @@
    
    <!-- Parts and Chapters -->
        <navPoint id="ncx_h2-1" playOrder="5">
-         <navLabel><text>Chapter 1 - The First Chapter</text></navLabel>
+         <navLabel><text>Chapter 1 - Happiness is good</text></navLabel>
          <content src="content/chap001.xhtml#h2-1" />
        </navPoint>
        <navPoint id="ncx_h2-2" playOrder="6">
