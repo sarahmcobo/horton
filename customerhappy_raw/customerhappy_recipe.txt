@@ -1,5 +1,5 @@
 
-title: customerhappy
+title: How ot make a Customer Happy
 author: Ann Author
 file_as: Author, Ann
 identifier: jcobobooks.com.epub-samples.demo
@@ -28,7 +28,7 @@ front_matter: # must include "cover", "title_page", and "table_of_contents" (in 
      
 chapters:
      -  code: '010'
-        name: The First Chapter
+        name: Happiness is good
         intro: This will be a great chapter.
         #starts_part: Part One
      -  code: '020'
